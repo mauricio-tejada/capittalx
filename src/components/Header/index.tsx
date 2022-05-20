@@ -1,4 +1,5 @@
 import logoImg from "../../assets/logo.svg"
+import { QuotesContainer } from "../QuotesContainer"
 import { Container, Content } from "./style"
 
 export function Header() {
@@ -6,7 +7,7 @@ export function Header() {
         <Container>
             <Content>
                 <img src={logoImg} alt="logo" />
-                <div>BTC r$135.135,12 (-12.50%)</div>
+                <QuotesContainer />
             </Content>
         </Container>
     )

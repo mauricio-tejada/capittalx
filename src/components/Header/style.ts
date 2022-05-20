@@ -9,7 +9,7 @@ export const Container = styled.header`
     justify-content: center;
     align-items: center;
 
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--bg-header);
     `
 
 export const Content = styled.div`
@@ -17,13 +17,7 @@ export const Content = styled.div`
     display: flex;
     justify-content: space-between;
 
-    height: 60%;
+    height: 70%;
     width: 90%;
-
-    div {
-        background: #000;
-        width: 60%;
-        color: #fff;
-    }
 
 `
